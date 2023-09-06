@@ -8,6 +8,7 @@ export const metadata = {
 const links = [
   { href: '/', label: 'Home' },
   { href: '/xkcd', label: 'Xkcd' },
+  { href: '/form', label: 'Form' },
 ]
 
 export default function RootLayout({
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
+        <header className="py-5">
           <nav>
             <ul className="flex items-center">
               {links.map(({ href, label }) => (

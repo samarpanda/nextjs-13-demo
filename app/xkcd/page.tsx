@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 interface XkcdData {
+  id: number
   img: string
   title: string
 }
