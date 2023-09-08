@@ -1,5 +1,7 @@
-import SimpleForm from '@/components/simple'
-import Rhf from '@/components/rhf'
+// import SimpleForm from '@/components/simple'
+// import Rhf from '@/components/rhf'
+// import RhfWithZod from '@/components/rhf-with-zod'
+import RHfWithAction from '@/components/with-action'
 
 const FormPage = () => {
   return (
@@ -7,7 +9,9 @@ const FormPage = () => {
       <div className="container">
         <h1 className="mb-10 text-2xl font-medium">React Forms</h1>
         {/* <SimpleForm /> */}
-        <Rhf />
+        {/* <Rhf /> */}
+        {/* <RhfWithZod /> */}
+        <RHfWithAction />
       </div>
     </section>
   )
